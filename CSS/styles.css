@@ -1,0 +1,105 @@
+html {
+    font-size: 16px;
+    color: #E8DAB2;
+    min-width: 480px;
+    font-family: Montserrat, sans-serif;
+    
+}
+.nav-ul {
+    list-style: none;
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 0.75rem;
+    text-decoration: underline;
+    font-size: 0.85rem;
+    
+}
+.nav-ul li {
+    padding-right: 3rem;
+}
+.nav-container {
+    background-color: #4F6D7A;
+    margin-top: -1rem;
+    position: sticky;
+    top: 0;
+    
+}
+.title h1 {
+    text-align: center;
+    background: rgba(0, 0, 0, .3);
+    color: #DD6E42;
+    padding: 1rem 0;
+    font-size: 1.5rem;
+}
+.title  {
+    padding: 5rem 0;
+}
+body {
+    margin: auto;
+    width: 100%;
+    background-color: #DD6E42;
+    
+   
+}
+.quote {
+    background-color: #EAEAEA;
+    color: #4F6D7A;
+}
+.meet-up-images img {
+    width: 100%;
+}
+
+.description {
+    margin-left: 1rem;
+    text-align: justify;
+    max-width: 768px;
+}
+
+.quote {
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-top: .25rem;
+}
+.quote h4 {
+    font-size: 0.75rem;
+    
+}
+.invitation {
+    text-align: center;
+    justify-content: center;
+    
+}
+.invitation img {
+    max-width: 20rem;
+}
+.footer-nav {
+    list-style: none;
+    display: flex;
+    background-color: #4F6D7A;
+    margin-bottom: 0;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+.footer-nav li {
+    padding-right: 2rem;
+    text-decoration: underline;
+    padding-bottom: 0.5rem;
+    font-size: 0.85rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .meet-up-images {
+        display: flex;
+        align-items: center;
+        justify-content: center;       
+        padding: 0 2.5%;
+    }
+    .meet-up-images img {
+        padding: 1.5%;
+        max-width: 31%;
+    }
+    .invitation img {
+        max-width: 50%;
+    }
+    
+  }
